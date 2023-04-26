@@ -69,6 +69,25 @@ function funciones() {
 
     console.log(funcion4()) // 13
     console.log('funcion5:', funcion5()) // 13
+
+
+
+
+    // con parametros
+    function suma(a, b) {
+        console.log(a + b)
+    }
+
+    suma(234, 456456)
+
+
+    // args infinitos
+    function infinito(...args) {
+        for (let i = 0; i < args.length; i++)
+            console.log(`args${i}: `, args[i])
+    }
+
+    infinito(1, 34, 45645, 'asdfasdf')
 }
 
 

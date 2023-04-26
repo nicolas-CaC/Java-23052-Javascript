@@ -1,4 +1,6 @@
 // condicionales()
 // funciones()
 // operadores()
-iteraciones()
+// iteraciones()
+// casteos()
+objetos()
