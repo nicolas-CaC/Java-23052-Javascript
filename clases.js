@@ -3,4 +3,6 @@
 // operadores()
 // iteraciones()
 // casteos()
-objetos()
+// objetos()
+// funciones2()
+objetos2()

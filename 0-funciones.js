@@ -88,6 +88,50 @@ function funciones() {
     }
 
     infinito(1, 34, 45645, 'asdfasdf')
+
+
+
+
+    // Funcion generadora
+
+    function* generadora() {
+        let i = 1
+        yield i + 10
+
+        i = 3
+        yield i + 100
+
+        i = 5
+        yield i + 1000
+    }
+
+    const fnGen = generadora()
+
+    console.log(fnGen.next()) // 11
+    console.log(fnGen.next()) // 101
+    console.log(fnGen.next()) // 1001
+    console.log(fnGen.next()) // undefined
+
+
+
+
+    function* generadora2(nro) {
+
+        let x = nro
+
+        while (nro > 0) {
+            yield x++
+        }
+    }
+
+    const fnGen2 = generadora2(3)
+
+    console.log(fnGen2.next()) // 3
+    console.log(fnGen2.next()) // 4
+    console.log(fnGen2.next()) // 5
+    console.log(fnGen2.next()) // 6
+    console.log(fnGen2.next()) // 7
+    console.log(fnGen2.next()) // 8
 }
 
 
