@@ -5,4 +5,5 @@
 // casteos()
 // objetos()
 // funciones2()
-objetos2()
+// objetos2()
+// fabricaObjetos()
