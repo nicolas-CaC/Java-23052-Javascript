@@ -7,3 +7,7 @@
 // funciones2()
 // objetos2()
 // fabricaObjetos()
+// clases()
+// clasesExtends()
+// math()
+// date()
