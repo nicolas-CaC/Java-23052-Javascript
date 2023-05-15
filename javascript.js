@@ -11,3 +11,4 @@
 // clasesExtends()
 // math()
 // date()
+// arrays()
