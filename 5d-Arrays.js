@@ -149,12 +149,6 @@ const arrays = () => {
     const { name } = objeto1
     console.log(name)
 
-    function ({ name }) {
-        name
-        name
-
-        name
-    }
 
     const funcion = ({ name }) => console.log(name)
 
@@ -168,6 +162,7 @@ const arrays = () => {
     console.log(pos1, pos2, pos5)
 
     console.log(array)
+
 }
 
 

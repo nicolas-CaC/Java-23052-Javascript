@@ -33,12 +33,6 @@ const funciones2 = () => {
         }
     }
 
-    let func = (a) => a
-    let aaa = propiedad()
-
-
-
-    let bbb = aaa(nombre)
 
     // let vendiendoPropiedades = true
 
