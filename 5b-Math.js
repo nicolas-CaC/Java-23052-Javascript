@@ -50,4 +50,3 @@ const math = () => {
     console.log(`valor aleatorio entre ${min} y ${max}`, Math.trunc(del10al30))
 }
 
-math()
