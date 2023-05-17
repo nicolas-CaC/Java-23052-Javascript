@@ -6,24 +6,46 @@ const arrays = () => {
     const c = ['Ba', 'Aa', 'a', 'b', 'bA', 'AA']
     // console.log({ a })
 
+
+    // PUSH
+
     a.push('x')
     // console.log('push:', a)
+
+
+    // POP
 
     a.pop()
     // console.log('pop:', a)
 
+
+
+    // UNSHIFT
+
     a.unshift('y')
     // console.log('unshift:', a)
+
+
+
+    // SHIFT
 
     a.shift()
     // console.log('shift:', a)
 
     const z = []
 
+
+
+    // FOREACH
+
     const x = a.forEach((item) => z.push(item * 3))
     // console.log('x:', x)
     // console.log({ a })
     // console.log({ z })
+
+
+
+    // MAP
 
     const map = a.map(item => item * 5)
     // console.log(map)
@@ -37,16 +59,26 @@ const arrays = () => {
 
     const personas = [p1, p2, p3, p4]
 
+
+
+    // FIND
+
     const find = personas.find(value => value.age < 18)
     console.log(find)
 
-    // console.clear();
+
+
+    // FILTER
 
     const filter = personas.filter(persona => {
         return persona.age >= 18
     })
     console.log(filter)
 
+
+
+
+    // REDUCE
 
     const arrayReduce = [1, 1, 2, 3, 4, 5, 6, 7, 8]
 
@@ -59,7 +91,8 @@ const arrays = () => {
     console.log(arrayReduce.at())
 
 
-    console.clear();
+
+    // SORT
 
     // const b = [3, 2, 4, 5, 1]
     // console.log(b.sort())
@@ -73,53 +106,76 @@ const arrays = () => {
     // const ordenado = c.toSorted()
 
 
-    console.clear();
 
+
+
+    // SOME
 
     const some = personas.some(persona => persona.name === 'juan')
     console.log(some)
 
 
-    console.clear();
 
+
+    // EVERY
 
     const every = a.every(value => typeof value != 'object')
     console.log(every)
 
 
-    console.clear();
 
+    // CONCAT
 
     const concat = a.concat(b)
     console.log(concat)
 
-    console.clear();
+
+
+    // INCLUDES
 
     const includes = a.includes(3)
     console.log(includes)
 
 
-    console.clear();
 
+
+    // JOIN
 
     const join = a.join('')
     // console.log(join)
     // console.log(a.join('-'))
 
+
+
+    // SPLIT
+
     const split = join.split('1')
     // console.log(split)
+
+
+
+    // ARRAY.FROM()
 
     const from = Array.from(join)
     // console.log({ from })
 
+
+
+    // INDEXOF
+
     const index = a.indexOf('a')
     console.log(a[index])
+
+
+
+    // FINDINDEX
 
     const findIndex = a.findIndex(value => value === 'a')
     console.log(findIndex)
 
-    console.clear();
 
+
+    // SLICE
 
     const slice = a.slice(1, 3)
     console.log(slice)
@@ -127,22 +183,20 @@ const arrays = () => {
     console.log(a.slice(3))
     console.log({ a })
 
-    console.clear();
 
+
+    // SPLICE
 
     // const a = [0, 1, 2, 'a', true]
     a.splice(2, 2, 'sol')
     console.log(a)
 
-    console.clear();
+
+
+    // FLAT
 
     const xx = [1, 2, 3, ['a', 'b', 'c']]
     console.log(xx.flat())
-
-
-    console.clear();
-
-
 
 }
 
